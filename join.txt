@@ -1,0 +1,23 @@
+inner join 
+بتجيب البيانات الي بتmatch between two tables 
+مثلا عندي 
+table `users` & table `categories`
+عندي شخصين اختاروا مثلا product معين 
+عن طريق ال inner join اقدر اجيب البروداكت ده 
+INNER JOIN => IT RETURN THE MATCHING VALUES BETWEEN THE TWO TABLES 
+LEFT JOIN 
+بتظهر بيانات الجدول الي علي الشمال كلها و بتظهر بيانات الجدول اليمين (الماتش بس )
+LEFT JOIN => IT RETURNS ALL OF THE VALUES IN THE LEFT TABLE JOIN WITH THE MATCHING 
+VALUES IN THE RIGHT TABLE ONLY 
+
+RIGHT JOIN 
+عكس ال LEFT JOIN بظبط 
+بتظهر بيانات الجدول الي علي اليمين كله و بيانات الجدول الي علي الشمال (االماتش بس )
+RIGHT JOIN => IT RETURNS ALL OF THE VALUES IN THE RIGHT TABLE JOIN WITH THE 
+MATCHING VALUES IN THE LEFT TABLE 
+
+SELF JOIN 
+بتاخد البيانات من نفس الجدول و لازم اديه اسم مستعار زي مثلا t1.column=t2.coulmn
+عشان اعرف افرق بينهم
+It is useful when you want to combine rows from a table
+based on a relationship within the same table. 
